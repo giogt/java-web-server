@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>${targetUri}</title>
+</head>
+<body>
+
+<h1>${targetUri}</h1>
+<ul>
+<#list files as file>
+    <li><#if file.isDirectory><b></#if><a href="${file.targetUri}">${file.name}</a><#if file.isDirectory></b></#if></li>
+</#list>
+</ul>
+<p><small><i>Served by <b>${webServerInfo.name}</b> version <b>${webServerInfo.version}</b></i></small></p>
+</body>
+</html>

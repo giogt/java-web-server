@@ -1,0 +1,7 @@
+org.giogt.web.server.properties.serializers.BooleanPropertySerializer
+org.giogt.web.server.properties.serializers.EnumPropertySerializer
+org.giogt.web.server.properties.serializers.InetAddressPropertySerializer
+org.giogt.web.server.properties.serializers.IntegerPropertySerializer
+org.giogt.web.server.properties.serializers.LongPropertySerializer
+org.giogt.web.server.properties.serializers.PathPropertySerializer
+org.giogt.web.server.properties.serializers.StringPropertySerializer
